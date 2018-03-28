@@ -32,7 +32,7 @@ weight = 5
 
 I am a PhD Candidate in the UC Berkeley [RISE Lab](https://rise.cs.berkeley.edu/).
 My research interests lie at the intersection of systems and machine learning, specifically around how to build systems
-that make it easier to build fast, safe, and maintainable applications that use machine learning at scale.
+that make it easier to create fast, safe, and maintainable applications that use machine learning at scale.
 In contrast to much of the work at the intersection of systems and machine learning which focuses on large-scale
 model *training*, my work focuses on the model *inference* part of the machine learning lifecycle.
 

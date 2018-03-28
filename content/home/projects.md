@@ -29,12 +29,12 @@ filter_default = 0
   tag = "*"
   
 [[filter]]
-  name = "Deep Learning"
-  tag = ".deep-learning"
+  name = "Active"
+  tag = ".active"
 
 [[filter]]
-  name = "Other"
-  tag = ".demo"
+  name = "Model-Serving"
+  tag = ".model-serving"
 
 +++
 
