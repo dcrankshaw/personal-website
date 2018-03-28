@@ -1,6 +1,7 @@
 +++
 title = "A Person Re-Identification System For Mobile Devices"
 date = "2015-09-01"
+draft = true
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["GA Cushen"]
@@ -61,3 +62,4 @@ caption = ""
 +++
 
 More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
+

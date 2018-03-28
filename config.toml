@@ -1,6 +1,6 @@
 baseurl = "/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-title = "Academic"
-copyright = "&copy; 2017 Daniel Crankshaw"
+title = "Dan Crankshaw"
+copyright = "&copy; 2018 Daniel Crankshaw"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -125,7 +125,8 @@ defaultContentLanguageInSubdir = false
     'Uncategorized',  # 0
     'Conference proceedings',  # 1
     'Work in progress',  # 2
-    'Technical report'  # 3
+    'Technical report',  # 3
+    'Workshop paper'  # 4
   ]
 
   # Configuration of talk pages.
@@ -149,7 +150,7 @@ defaultContentLanguageInSubdir = false
     #   1 = Detailed
     #   2 = APA
     #   3 = MLA
-    publication_format = 3
+    publication_format = 1
 
   # Social/Academic Networking
   #
@@ -197,13 +198,13 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Publications"
-  url = "#publications_selected"
+  url = "#publications"
   weight = 2
 
-# [[menu.main]]
-#   name = "Posts"
-#   url = "#posts"
-#   weight = 3
+[[menu.main]]
+  name = "Talks"
+  url = "#talks"
+  weight = 3
 
 [[menu.main]]
   name = "Projects"

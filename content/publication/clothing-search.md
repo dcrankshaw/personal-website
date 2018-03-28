@@ -1,6 +1,7 @@
 +++
 title = "Mobile visual clothing search"
 date = "2013-07-01"
+draft = true
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["GA Cushen", "MS Nixon"]
@@ -36,15 +37,15 @@ selected = true
 projects = ["example-external-project"]
 
 # Links (optional).
-url_pdf = "http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf"
-url_preprint = "http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf"
-url_code = "#"
-url_dataset = "#"
-url_project = "#"
-url_slides = "#"
-url_video = "#"
-url_poster = "#"
-url_source = "#"
+# url_pdf = "http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf"
+# url_preprint = "http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf"
+# url_code = "#"
+# url_dataset = "#"
+# url_project = "#"
+# url_slides = "#"
+# url_video = "#"
+# url_poster = "#"
+# url_source = "#"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
