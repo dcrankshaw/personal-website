@@ -13,7 +13,7 @@ image_preview = "clipper_logo.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["model-serving", "active"]`
-tags = ["model-serving", "active"]
+tags = ["prediction-serving", "active"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "http://clipper.ai"

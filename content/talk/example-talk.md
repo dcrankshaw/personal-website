@@ -9,6 +9,7 @@ abstract_short = ""
 event = "Academic Theme Conference"
 event_url = "https://example.org"
 location = "London, United Kingdom"
+draft = true
 
 # Is this a selected talk? (true/false)
 selected = false

@@ -14,7 +14,7 @@ image_preview = "velox_logo.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["model-serving"]
+tags = ["prediction-serving"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "https://github.com/amplab/velox-modelserver"

@@ -33,8 +33,8 @@ filter_default = 0
   tag = ".active"
 
 [[filter]]
-  name = "Model-Serving"
-  tag = ".model-serving"
+  name = "Prediction-Serving"
+  tag = ".prediction-serving"
 
 +++
 
