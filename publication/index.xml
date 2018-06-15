@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Dan Crankshaw</title>
+    <link>/publication/</link>
+    <description>Recent content in Publications on Dan Crankshaw</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Daniel Crankshaw</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Research for Practice: Prediction-Serving Systems </title>
+      <link>/publication/model-serving-rfp-acm-queue/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/model-serving-rfp-acm-queue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IDK Cascades: Fast Deep Learning by Learning not to Overthink</title>
+      <link>/publication/cascades-pub/</link>
+      <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/cascades-pub/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clipper: A Low-Latency Online Prediction Serving System</title>
+      <link>/publication/clipper-pub/</link>
+      <pubDate>Mon, 27 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/clipper-pub/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scalable Training and Serving of Personalized Models</title>
+      <link>/publication/learning-sys-workshop-pub/</link>
+      <pubDate>Sat, 12 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/learning-sys-workshop-pub/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Missing Piece in Complex Analytics: Low Latency, Scalable Model Management and Serving with Velox</title>
+      <link>/publication/velox-pub/</link>
+      <pubDate>Sun, 04 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/velox-pub/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GraphX: Graph Processing in a Distributed Dataflow Framework</title>
+      <link>/publication/graphx-pub/</link>
+      <pubDate>Mon, 06 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/graphx-pub/</guid>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+    </item>
+    
+    <item>
+      <title>Inverted Indices for Particle Tracking in Petascale Cosmological Simulations</title>
+      <link>/publication/indra-pub/</link>
+      <pubDate>Mon, 29 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/indra-pub/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
