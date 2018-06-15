@@ -1,7 +1,18 @@
-baseurl = "/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-title = "Dan Crankshaw"
-copyright = "&copy; 2018 Daniel Crankshaw"
-theme = "academic2"
+# Configuration of Academic
+# Documentation: https://sourcethemes.com/academic/
+
+# The URL of your website.
+# End your URL with a `/` trailing slash, e.g. `https://example.com/`.
+baseurl = "/"
+
+# Title of your site
+title = "Academic"
+
+# Your copyright notice - appears in site footer.
+# To display a copyright symbol, type `&copy;`.
+copyright = "&copy; 2018"
+
+theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -31,7 +42,7 @@ defaultContentLanguageInSubdir = false
 
 [params]
   # Color theme.
-  #   Choose from `default`, `ocean`, `forest`, or `coffee`.
+  #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
   color_theme = "default"
 
   # Font style.
@@ -39,18 +50,23 @@ defaultContentLanguageInSubdir = false
   font = "default"
 
   # Your details.
-  name = "Dan Crankshaw"
-  role = "PhD Candidate"
+  name = "Lena Smith"
+  role = "Professor of Artificial Intelligence"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "UC Berkeley", url = "" } ]
+  organizations = [ { name = "Stanford University", url = "" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait_outdoors.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "crankshaw@cs.berkeley.edu"
+  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  email = "test@example.org"
+  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+  office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  phone = "888 888 88 88"
+  skype = "echo123"
+  telegram = ""
 
-  # Enable Keybase in Contact section by entering your keybase.io username.
+  # Enable Keybase in Contact widget by entering your keybase.io username.
   keybase = ""
 
   # Discussion link (e.g. link to a forum, mailing list, or chat).
@@ -61,6 +77,26 @@ defaultContentLanguageInSubdir = false
   #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
   logo = ""
 
+  # Enable/disable map in Contact widget.
+  # To show your address on a map in the contact widget, you need to enter your latitude, longitude and choose
+  # a map provider below.
+  # To use Google Maps, set `map = 1` and enter your API key that can be obtained here:
+  #   https://developers.google.com/maps/documentation/javascript/get-api-key
+  # To use OpenStreetMap tiles, set `map = 2`.
+  # To use OpenStreetMap on a high traffic site, set `map = 3` and enter your API key that can be obtained here:
+  #   https://www.mapbox.com/studio/account/tokens
+  # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
+  #
+  # Map provider:
+  #   0: No map
+  #   1: Google Maps
+  #   2: OpenStreetMap (Mapnik)
+  #   3: OpenStreetMap (Mapbox)
+  map = 0
+  map_api_key = ""
+  latitude = "37.4275"
+  longitude = "-122.1697"
+  zoom = 15
 
   # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
@@ -68,8 +104,13 @@ defaultContentLanguageInSubdir = false
   #   Examples: "3:04 pm" or "15:04"
   time_format = "3:04 PM"
 
+  # Show estimated reading time for posts?
+  reading_time = true
 
-  # Display section pager for posts?
+  # Display comment count? Requires commenting to be enabled.
+  comment_count = true
+
+  # Display next/previous section pager?
   section_pager = false
 
   # Enable global LaTeX math rendering?
@@ -120,13 +161,16 @@ defaultContentLanguageInSubdir = false
   #   The index of the publication type in the list is used as its unique numerical identifier.
   #   The numeric ID is used in a publication's frontmatter to categorize it.
   #   The language can be edited below.
-  #   For multi-lingual sites, copy this block to each language section at the end of this file.
+  #   For multilingual sites, `publication_types` can be copied to each language section at the end of this file and
+  #   translated.
   publication_types = [
     'Uncategorized',  # 0
-    'Conference proceedings',  # 1
-    'Work in progress',  # 2
-    'Technical report',  # 3
-    'Workshop paper'  # 4
+    'Conference paper',  # 1
+    'Journal article',  # 2
+    'Manuscript',  # 3
+    'Report',  # 4
+    'Book',  # 5
+    'Book section'  # 6
   ]
 
   # Configuration of talk pages.
@@ -150,7 +194,7 @@ defaultContentLanguageInSubdir = false
     #   1 = Detailed
     #   2 = APA
     #   3 = MLA
-    publication_format = 1
+    publication_format = 3
 
   # Social/Academic Networking
   #
@@ -173,23 +217,31 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:crankshaw@cs.berkeley.edu"
+    link = "mailto:test@example.org"
+
+  [[params.social]]
+    icon = "twitter"
+    icon_pack = "fa"
+    link = "//twitter.com/GeorgeCushen"
 
   [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
-    link = "https://scholar.google.com/citations?user=94RFSSsAAAAJ"
+    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/dcrankshaw"
+    link = "//github.com/gcushen"
 
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
+[params.menus]
+  # Align the main menu to the right of the page? (true/false)
+  align_right = true
 
 [[menu.main]]
   name = "Home"
@@ -198,12 +250,12 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Publications"
-  url = "#publications"
+  url = "#publications_selected"
   weight = 2
 
 [[menu.main]]
-  name = "Talks"
-  url = "#talks"
+  name = "Posts"
+  url = "#posts"
   weight = 3
 
 [[menu.main]]
@@ -211,10 +263,10 @@ defaultContentLanguageInSubdir = false
   url = "#projects"
   weight = 4
 
-# [[menu.main]]
-#   name = "Teaching"
-#   url = "#teaching"
-#   weight = 5
+[[menu.main]]
+  name = "Teaching"
+  url = "#teaching"
+  weight = 5
 
 [[menu.main]]
   name = "Contact"
@@ -222,10 +274,10 @@ defaultContentLanguageInSubdir = false
   weight = 6
 
 # Taxonomies.
-# [taxonomies]
-#   tag = "tags"
-#   category = "categories"
-#   publication_type = "publication_types"
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  publication_type = "publication_types"
 
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.
