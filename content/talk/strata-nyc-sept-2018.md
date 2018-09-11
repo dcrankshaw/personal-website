@@ -21,7 +21,7 @@ projects = ["clipper"]
 
 # Links (optional).
 url_pdf = ""
-url_slides = ""
+url_slides = "files/slides/model_serving_tutorial@strata_9_2018.pptx"
 url_video = ""
 url_code = ""
 
