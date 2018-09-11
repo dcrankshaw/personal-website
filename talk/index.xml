@@ -15,7 +15,7 @@
     <item>
       <title>Clipper: A Low-Latency Online Prediction Serving System</title>
       <link>/talk/clara-dec-2017/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
       
       <guid>/talk/clara-dec-2017/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Deploying and Monitoring Heterogeneous Machine Learning Applications with Clipper</title>
       <link>/talk/spark-summit-june-2018/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
       
       <guid>/talk/spark-summit-june-2018/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>Deploying and monitoring interactive machine learning applications with Clipper</title>
       <link>/talk/strata-march-2018/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
       
       <guid>/talk/strata-march-2018/</guid>
       <description></description>
@@ -42,7 +42,7 @@
     <item>
       <title>Model serving and management at scale using open-source tools</title>
       <link>/talk/strata-nyc-sept-2018/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
       
       <guid>/talk/strata-nyc-sept-2018/</guid>
       <description>Machine learning is being deployed in a growing number of applications which demand real-time, accurate, and robust predictions under heavy serving loads. Supporting these applications comes with its set of challenges, requiring the integration of machine learning software with other systems including user-facing application code, live databases, and high-volume data streams. To address these challenges, there has emerged a new class of systems, the prediction-serving system, for deploying machine learning models at inference time.</description>

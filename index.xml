@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Daniel Crankshaw</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0400</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -76,7 +76,7 @@
     <item>
       <title>Clipper: A Low-Latency Online Prediction Serving System</title>
       <link>/talk/clara-dec-2017/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
       
       <guid>/talk/clara-dec-2017/</guid>
       <description></description>
@@ -85,7 +85,7 @@
     <item>
       <title>Deploying and Monitoring Heterogeneous Machine Learning Applications with Clipper</title>
       <link>/talk/spark-summit-june-2018/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
       
       <guid>/talk/spark-summit-june-2018/</guid>
       <description></description>
@@ -94,7 +94,7 @@
     <item>
       <title>Deploying and monitoring interactive machine learning applications with Clipper</title>
       <link>/talk/strata-march-2018/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
       
       <guid>/talk/strata-march-2018/</guid>
       <description></description>
@@ -103,7 +103,7 @@
     <item>
       <title>Model serving and management at scale using open-source tools</title>
       <link>/talk/strata-nyc-sept-2018/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
       
       <guid>/talk/strata-nyc-sept-2018/</guid>
       <description>&lt;p&gt;Machine learning is being deployed in a growing number of applications which demand real-time, accurate, and robust predictions under heavy serving loads. Supporting these applications comes with its set of challenges, requiring the integration of machine learning software with other systems including user-facing application code, live databases, and high-volume data streams. To address these challenges, there has emerged a new class of systems, the prediction-serving system, for deploying machine learning models at inference time.&lt;/p&gt;
@@ -119,7 +119,7 @@
     <item>
       <title>Getting started with the Academic framework for Hugo</title>
       <link>/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>/post/getting-started/</guid>
       <description>
@@ -395,7 +395,7 @@ $ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
     <item>
       <title>Customizing the homepage with widgets</title>
       <link>/post/widgets/</link>
-      <pubDate>Tue, 19 Apr 2016 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 19 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>/post/widgets/</guid>
       <description>
@@ -463,7 +463,7 @@ $ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
     <item>
       <title>Managing content</title>
       <link>/post/managing-content/</link>
-      <pubDate>Mon, 18 Apr 2016 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 18 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>/post/managing-content/</guid>
       <description>&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, news/blog articles, and widget pages. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;
@@ -693,7 +693,7 @@ widgets = true
     <item>
       <title>Writing content with Markdown, LaTeX, and Shortcodes</title>
       <link>/post/writing-markdown-latex/</link>
-      <pubDate>Sun, 17 Apr 2016 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 17 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>/post/writing-markdown-latex/</guid>
       <description>&lt;p&gt;Content can be written using &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt;, &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX math&lt;/a&gt;, and &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34; target=&#34;_blank&#34;&gt;Hugo Shortcodes&lt;/a&gt;. Additionally, HTML may be used for advanced formatting. This article gives an overview of the most common formatting options.&lt;/p&gt;
