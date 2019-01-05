@@ -36,4 +36,3 @@ My research interests lie at the intersection of systems and machine learning, s
 that make it easier to create fast, safe, affordable, and maintainable applications for serving machine learning at scale.
 In contrast to much of the work at the intersection of systems and machine learning which focuses on large-scale
 model *training*, my work focuses on the model *inference* part of the machine learning lifecycle.
-I spend much of my time developing and maintaining [Clipper](http://clipper.ai), a production-ready open-source prediction-serving system.
